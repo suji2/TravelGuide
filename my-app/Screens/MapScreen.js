@@ -53,10 +53,6 @@ const MapScreen = () => {
     );
   }
 
-  const handleMarkerPress = (location) => {
-    setSelectedLocation(location);
-  };
-
   return (
     <View style={styles.container}>
       {currentLocation && (
